@@ -51,7 +51,7 @@ var app = http.createServer(function(request,response){
               var title = queryData.id; // 쿼리 스트링에서 제목을 가져옴
               var list = templateList(filelist);
               templateHTML(title, list, `<h2>${title}</h2><p>${description}</p>`);
-              
+
               response.writeHead(200);
               response.end(template);
         });
