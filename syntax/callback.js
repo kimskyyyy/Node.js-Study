@@ -15,7 +15,6 @@ var a = function() {
 }
 a();
 
-
 // 처리 시간이 오래 걸린다고 가정한 slowfunc 함수 정의
 function slowfunc(callback) { // 함수의 실행이 끝나면 자동으로 매개변수로 받은 함수 호출
     callback();
